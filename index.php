@@ -15,7 +15,7 @@ and open the template in the editor.
 // Page sur laquelle sera renvoyé l'utilisateur après la validation 
 // du formulaire (URL de retour)
 $nextUrl = 'http://gdata.youtube.com/action/GetUploadToken';
-$postUrl = 'http://gdata.youtube.com/action/GetUploadToken';
+$postUrl = 'http://youtube.com/action/GetUploadToken';
 // Affichage du formulaire
 $form = '<form action="'. htmlspecialchars($postUrl, ENT_QUOTES) .'?nexturl='
 . urlencode($nextUrl) . ' method="post" enctype="multipart/formdata">
