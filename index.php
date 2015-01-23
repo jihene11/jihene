@@ -14,7 +14,7 @@ and open the template in the editor.
 <?php
 // Page sur laquelle sera renvoyé l'utilisateur après la validation 
 // du formulaire (URL de retour)
-$nextUrl = 'https://www.youtube.com/channel/UCAHjsrO1RIcVqMlaP4rYWoQ';
+$nextUrl = 'https://www.youtube.com/';
 
 // Affichage du formulaire
 $form = '<form action="'. htmlspecialchars ($postUrl, ENT_QUOTES) .'?nexturl='
