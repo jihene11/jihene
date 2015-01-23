@@ -13,7 +13,7 @@ and open the template in the editor.
         <label> Search:
             <form action="" method="post">
                 
-                <input id=bt_submit type=submit value=cnnecter name=bt_submit>
+                <input id=bt_submit type=submit value=connecter name=bt_submit>
              
             
         </form>
@@ -22,7 +22,7 @@ and open the template in the editor.
 <?php
 
 
-require_once  'Zend/Gdata/YouTube.php'; // on charge la librairie YouTube
+require_once  'library/ZendGdata/YouTube.php'; // on charge la librairie YouTube
 
 // fonction permettant d'afficher les informations sur une vidéo
 function  printVideoEntry($videoEntry)
@@ -62,7 +62,7 @@ printVideoFeed($videoFeed);
 
 // Page sur laquelle sera renvoyé l'utilisateur après la validation 
 // du formulaire (URL de retour)
-$nextUrl = 'http://www.monsiteweb.com/upload_video_ok.php';
+/*$nextUrl = 'http://www.monsiteweb.com/upload_video_ok.php';
 
 // Affichage du formulaire
 $form = '<form action="'. htmlspecialchars ($postUrl, ENT_QUOTES) .'?nexturl='
@@ -72,7 +72,7 @@ Fichier vidéo : <input name="file" type="file"/>
 <input value="Envoyer la vidéo" type="submit" />
 </form>';
 
-echo  $form;
+echo  $form;*/
 
 ?> 
     </body>
