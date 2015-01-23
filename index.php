@@ -10,7 +10,7 @@ and open the template in the editor.
         <title>jihene smaya  /TWITTER Search</title>
     </head>
     <body>
-        <label> Search:<form action="" method="post">
+        <label> Search:<form action="index.php" method="post">
              
             
         </form>
