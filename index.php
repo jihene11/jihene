@@ -7,10 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>jihene smaya  /TWITTER Search</title>
     </head>
     <body>
-        <?php
+        <label> Search:<form action="" method="post">
+            <input type="text" name="keywrd"></label> 
+            
+        </form>
+        <?php include 'C:\Users\jihene\Documents\NetBeansProjects\twitter-api-php-master\TwitterAPIExchange.php';
         // put your code here
         ?>
     </body>
