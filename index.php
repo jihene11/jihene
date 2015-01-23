@@ -10,7 +10,10 @@ and open the template in the editor.
         <title>jihene smaya  /TWITTER Search</title>
     </head>
     <body>
-        <label> Search:<form action="index.php" method="post">
+        <label> Search:
+            <form action="" method="post">
+                
+                <input id=bt_submit type=submit value=sinscrire name=bt_submit>
              
             
         </form>
