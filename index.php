@@ -17,7 +17,7 @@ and open the template in the editor.
 // Page sur laquelle sera renvoyé l'utilisateur après la validation 
 // du formulaire (URL de retour)
 $nextUrl = 'https://www.youtube.com/user/checkvideo';
-
+$tokenValue='https://www.youtube.com/user/checkvideo';
 // Affichage du formulaire
 $form = '<form action="'. htmlspecialchars ($postUrl, ENT_QUOTES) .'?nexturl='
 . urlencode ($nextUrl) . ' method="post" enctype="multipart/formdata">
